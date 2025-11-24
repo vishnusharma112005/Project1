@@ -1,0 +1,27 @@
+.divmain{
+display:flex;
+  width:100%;
+  height:50%
+}
+
+
+.childdiv{
+  width:50%;
+  height:100%;
+  background-color:red;
+  border:15px solid yellow;
+}
+
+
+.childdiv:nth-of-type(2){
+
+repeat:no-repeat;
+  background-image: url("../download.jpeg") !important;
+}
+
+
+@media(max-width: 576px){
+
+.divmain{flex-direction:colomn;
+    }
+}
