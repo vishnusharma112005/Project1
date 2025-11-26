@@ -8,7 +8,7 @@ body{
   background-color: blue;
 }
 .logo{
-  /*display-column:flex;*/
+  display-column:flex;
   width:25%;
   background-color:green;
 }
