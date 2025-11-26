@@ -24,6 +24,11 @@ body{
   text-align :center;
 }
 
+.logo a img{
+  width: auto;
+  height: auto;
+}
+
 @media (max-width:576px)
  .header{
   height:7%
