@@ -16,6 +16,16 @@ body{
 .menu{
  width:75%;
  background-color:black;
+ display:flex;
+}
+
+.navbar{
+
+  
+}
+
+.mobilebar{
+  
 }
 
 .logo a{
