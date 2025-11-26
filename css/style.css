@@ -9,6 +9,11 @@ body{
 }
 .logo{
   display-column:flex
+}
+
+.menu{
+
+}
 
 @media (max-width:576px)
  .header{
