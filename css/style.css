@@ -30,19 +30,16 @@ body{
  display:flex;
 }
 
-.navbar ul{ 
+.nav ul{ 
   display:flex;
   text-decoration:none;
   list-style:none;
 }
-.navbar ul li{
+.navbar ul li a{
   text-decoration:none;
   
 }
-           
 
-  
-}
 
 .mobilebar{
   
