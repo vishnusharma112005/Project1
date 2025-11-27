@@ -33,7 +33,7 @@ body{
 .navbar ul{ 
   display:flex;
   text-decoration:none;
-  list-style:none
+  list-style:none;
 }
 .navbar ul li{
   text-decoration:none;
