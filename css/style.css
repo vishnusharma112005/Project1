@@ -12,22 +12,6 @@ body{
   width:25%;
   background-color:green;
 }
-
-.menu{
- width:75%;
- background-color:black;
- display:flex;
-}
-
-.navbar{
-
-  
-}
-
-.mobilebar{
-  
-}
-
 .logo a{
   width:100%;
   height:100%;
@@ -39,6 +23,34 @@ body{
   width:auto;
   height:auto;
 }
+
+.menu{
+ width:75%;
+ background-color:black;
+ display:flex;
+}
+
+.navbar ul{ 
+  display:flex;
+  text-decoration:none;
+  list-style:none
+}
+.navbar ul li{
+  text-decoration:none;
+  
+}
+           
+
+  
+}
+
+.mobilebar{
+  
+}
+
+
+
+
 
 @media (max-width:576px){
  .header{
