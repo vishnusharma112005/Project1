@@ -38,14 +38,11 @@
 }
 
 .nav ul{ 
+  height:100%;
+  width:100%;
   display:flex;
-  text-decoration:none;
   align-items:center;
-  
-  /*gap:40px;*/
-  /*justify-content:space-between;*/
   justify-content:space-around;
-  text-height:auto;
 
   
    
