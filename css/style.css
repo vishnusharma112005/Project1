@@ -48,10 +48,6 @@
   align-items: center;
 }
 
-  .menubar ul li:hover{
-   color:white;}
-
-
 .menubar ul li {
   list-style: none;
   padding-bottom: 3%;
@@ -63,6 +59,9 @@
   font-size: 1.5vw;
   position: absolute;
 }
+
+.menubar ul li a:hover {
+  color: white; }
 
 .menu .mobilebar {
   height: 100%;
