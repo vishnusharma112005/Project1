@@ -60,7 +60,7 @@
   color:white;
 }
 
-.menu .nav .submenu{
+.menu .nav ul li .submenu{
   display:none;
   position: absolute;
   background-color: magenta;
@@ -70,17 +70,17 @@
   z-index:10;
 }
 
-.menu .nav .submenu ul{
+.menu .nav ul li .submenu ul{
   display:flex;
   flex-direction;
 }
-.menu .nav .submenu ul li{
+.menu .nav .menu .nav ul li .submenu ul li{
   list-style:none;
   padding:5px 10px;
  
   }
 
-.menu .nav .submenu ul li a{
+.menu .nav .menu .nav ul li .submenu ul li a{
   color:black;
   font-size:1vw;
   text-decoration:none;
