@@ -56,7 +56,9 @@
   font-size:1.5vw;
   position:absolute;
   }
-
+.nav ul li a:hover{
+  color:white;
+}
 
 /*@media (max-width:576px){
  .header{
