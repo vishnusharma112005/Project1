@@ -60,22 +60,27 @@
   color:white;
 }
 
-.submenu{
+.menu .nav .submenu{
   display:none;
   position: absolute;
   background-color: magenta;
-  min-width:25%;
+  min-width:120px;
   border:1px solid black;
   padding-left:5px 
   z-index:10;
 }
-.submenu ul li{
+
+.menu .nav .submenu ul{
+  display:flex;
+  flex-direction;
+}
+.menu .nav .submenu ul li{
   list-style:none;
   padding:5px 10px;
-  text-align:left;
+ 
   }
 
-.submenu ul li a{
+.menu .nav .submenu ul li a{
   color:black;
   font-size:1vw;
   text-decoration:none;
@@ -83,7 +88,7 @@
 }
 
 
-.menu ul li a:hover{
+.menu ul li:hover.submenu{
 display:block;
 }
 /*@media (max-width:576px){
