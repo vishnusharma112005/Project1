@@ -73,7 +73,7 @@
   border: 1px solid black;
  max-width: 10%;
   z-index: 1;
-  top:5%;
+  top:100%;
   box-sizing:border-box;
   overflow:hidden;
 }
@@ -85,13 +85,13 @@
 
 .menu .menubar ul li .submenu li a{
   color: black;
-  font-size: 1vw;
+  font-size : 1vw;
   text-decoration: none;
   position: relative; 
-  white-space:nowrap;
-  overflow:hidden;
-  text-overflow:ellipsis;
-  display: block;
+  white-space :nowrap;
+  overflow :hidden;
+  text-overflow :ellipsis;
+  display : block;
 }
 
 .menubar ul li:hover .submenu {
