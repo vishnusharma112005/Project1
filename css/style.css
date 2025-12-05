@@ -90,7 +90,7 @@
   position: relative; 
   white-space:nowrap;
   overflow:hidden;
-  text-overflow:ellpsis;
+  text-overflow:ellipsis;
 }
 
 .menubar ul li:hover .submenu {
