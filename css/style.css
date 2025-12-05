@@ -89,6 +89,8 @@
   text-decoration: none;
   position: relative; 
   white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellpsis;
 }
 
 .menubar ul li:hover .submenu {
