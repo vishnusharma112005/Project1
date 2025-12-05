@@ -73,6 +73,9 @@
   border: 1px solid black;
   width: 20px;
   z-index: 1;
+  top:5%;
+  box-sizing:border-box;
+  overflow:hidden;
 }
 
 .menu .menubar ul li .submenu li {
